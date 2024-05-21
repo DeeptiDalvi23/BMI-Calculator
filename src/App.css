@@ -1,0 +1,39 @@
+.bmi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.bmi-form{
+    width: 30%;
+    height: 40vw;
+    border: 2px solid black;
+}
+
+.weight, .height ,.btns,.msg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2vw;
+}
+
+.submit-btn,.reload-btn{
+    width: 60%;
+    height: 28px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.input{
+    height: 23px;
+    margin-top: 1vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 60%;
+}
+.reload-btn{
+    margin-top: 2vw;
+}
